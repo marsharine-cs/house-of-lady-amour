@@ -1,0 +1,204 @@
+# House of Lady Amour
+
+# Software Architecture
+
+---
+
+# Architecture Overview
+
+The House of Lady Amour platform follows a modern Jamstack-inspired architecture designed for scalability, performance, accessibility, and maintainability.
+
+The website separates presentation, content, media, and e-commerce into specialized services.
+
+---
+
+# High-Level Architecture
+
+Visitors
+
+↓
+
+Responsive Website
+
+↓
+
+Frontend Application
+
+↓
+
+Content + Media + Store
+
+↓
+
+Hosting & Analytics
+
+---
+
+# Frontend
+
+Responsibilities
+
+- User Interface
+- Responsive Layout
+- Accessibility
+- Navigation
+- Search
+- Forms
+
+Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+- React
+- Next.js
+
+---
+
+# Content Layer
+
+Books
+
+Recipes
+
+Blog Articles
+
+Author Information
+
+Media Gallery
+
+Documentation
+
+---
+
+# E-Commerce Layer
+
+Shopify
+
+Products
+
+Collections
+
+Checkout
+
+Orders
+
+Inventory
+
+Payments
+
+---
+
+# Media Layer
+
+YouTube
+
+Photography
+
+Recipe Images
+
+Brand Images
+
+Product Images
+
+Downloads
+
+---
+
+# Backend Services
+
+Shopify APIs
+
+Email Service
+
+Analytics
+
+Search
+
+SEO Metadata
+
+---
+
+# Hosting
+
+GitHub
+
+Vercel
+
+Cloudflare
+
+Domain
+
+SSL
+
+---
+
+# Security
+
+HTTPS
+
+Shopify Secure Checkout
+
+Form Validation
+
+Rate Limiting
+
+Input Validation
+
+---
+
+# Performance Goals
+
+Fast loading
+
+Responsive images
+
+Caching
+
+Lazy loading
+
+Minimal JavaScript
+
+Accessibility
+
+---
+
+# Future Expansion
+
+Member Portal
+
+Digital Downloads
+
+Courses
+
+Community
+
+Podcast
+
+Mobile Application
+
+AI Search
+
+Internationalization
+
+---
+
+# Design Principles
+
+Simple
+
+Elegant
+
+Accessible
+
+Scalable
+
+Maintainable
+
+Faith-centered
+
+Mobile-first
+
+Performance-first
+
+User-focused
