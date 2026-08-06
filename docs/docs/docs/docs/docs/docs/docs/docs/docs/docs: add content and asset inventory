@@ -1,0 +1,423 @@
+# Design System
+
+**Project:** House of Lady Amour  
+**Owner:** Marsharine A. Simpson  
+**Version:** 1.0  
+**Status:** Draft  
+**Last Updated:** August 2026  
+
+**Related Documents:**
+- Project Charter
+- Information Architecture
+- User Personas
+- Content and Asset Inventory
+
+---
+
+# Purpose
+
+This document defines the visual and user-interface standards for the House of Lady Amour website.
+
+The design system will help maintain consistency across pages, reusable components, Shopify products, recipes, books, videos, and future website features.
+
+---
+
+# Brand Experience
+
+The House of Lady Amour should feel:
+
+- Faith-centered
+- Warm
+- Elegant
+- Welcoming
+- Romantic
+- Peaceful
+- Countryside-inspired
+- Timeless
+- Creative
+- Luxurious without feeling unapproachable
+
+---
+
+# Brand Principles
+
+## Faith First
+
+Faith in God is the foundation of the Lady Amour brand and should be reflected respectfully throughout the website.
+
+## Beauty in Simplicity
+
+Layouts should feel graceful and uncluttered. Decorative details should support the content rather than overwhelm it.
+
+## Warm Hospitality
+
+Visitors should feel welcomed into the House of Lady Amour rather than directed through a traditional commercial website.
+
+## Meaningful Storytelling
+
+Books, recipes, videos, products, and photographs should be presented through stories and experiences.
+
+## Consistency
+
+Colors, typography, buttons, spacing, imagery, and component behavior should remain consistent throughout the website.
+
+---
+
+# Primary Brand Colors
+
+These colors are the initial working palette and may be refined after accessibility testing.
+
+| Color Name | Hex Code | Intended Use |
+|---|---|---|
+| Lady Amour Burgundy | `#6B1E2B` | Primary buttons, headings, accents |
+| Deep Wine | `#4A1720` | Dark backgrounds and footer |
+| Warm Ivory | `#FFF9F0` | Main page background |
+| Soft Cream | `#F4E7D3` | Cards and section backgrounds |
+| Antique Gold | `#B68A3A` | Borders, icons, decorative accents |
+| Rich Brown | `#4A3428` | Body text and rustic accents |
+| Charcoal | `#252525` | High-contrast text |
+| Pure White | `#FFFFFF` | Forms, QR-code backgrounds, contrast |
+
+---
+
+# Color Usage Rules
+
+1. Warm ivory should be the primary background color.
+2. Burgundy should be used for important calls to action.
+3. Gold should be used sparingly as an accent.
+4. Body text should use rich brown or charcoal.
+5. White should be used where maximum contrast is required.
+6. Light gold text should not appear on cream backgrounds.
+7. All color combinations must be tested for accessibility.
+
+---
+
+# Typography
+
+The website should use no more than three primary font roles.
+
+## Heading Font
+
+A refined serif font should be used for:
+
+- Page titles
+- Section headings
+- Book titles
+- Featured quotations
+
+Possible choices:
+
+- Cormorant Garamond
+- Playfair Display
+- Libre Baskerville
+
+## Body Font
+
+A highly readable sans-serif font should be used for:
+
+- Paragraphs
+- Navigation
+- Product information
+- Recipe instructions
+- Forms
+
+Possible choices:
+
+- Inter
+- Source Sans 3
+- Lato
+
+## Accent Font
+
+A restrained script font may be used for:
+
+- Short decorative phrases
+- Selected taglines
+- Signature-style text
+
+Script fonts should never be used for long paragraphs, buttons, or essential instructions.
+
+---
+
+# Typography Scale
+
+| Style | Suggested Size |
+|---|---:|
+| Display heading | 56–72 px |
+| Page heading | 40–48 px |
+| Section heading | 30–36 px |
+| Card heading | 22–26 px |
+| Body text | 16–18 px |
+| Small text | 14 px |
+| Button text | 15–17 px |
+
+Typography must scale responsively on mobile devices.
+
+---
+
+# Spacing System
+
+Use an eight-pixel spacing system.
+
+| Token | Size |
+|---|---:|
+| `space-1` | 4 px |
+| `space-2` | 8 px |
+| `space-3` | 16 px |
+| `space-4` | 24 px |
+| `space-5` | 32 px |
+| `space-6` | 48 px |
+| `space-7` | 64 px |
+| `space-8` | 96 px |
+
+Consistent spacing should be used instead of selecting random values for each page.
+
+---
+
+# Layout Principles
+
+1. Design mobile-first.
+2. Use generous white space.
+3. Keep paragraphs at a comfortable reading width.
+4. Avoid overcrowding pages with too many product categories.
+5. Use clear visual hierarchy.
+6. Keep primary actions easy to identify.
+7. Maintain consistent margins and section spacing.
+8. Use responsive grids for products, recipes, books, and videos.
+
+---
+
+# Buttons
+
+## Primary Button
+
+Use for the most important action on a page.
+
+Examples:
+
+- Shop the Book
+- Explore the Library
+- Read the Recipe
+- Subscribe
+
+Suggested appearance:
+
+- Burgundy background
+- White text
+- Rounded corners
+- Clear hover and focus states
+
+## Secondary Button
+
+Use for supporting actions.
+
+Suggested appearance:
+
+- Transparent or ivory background
+- Burgundy border
+- Burgundy text
+
+## Text Link
+
+Use for simple navigation or supporting information.
+
+Links must remain visually recognizable and should not rely only on color.
+
+---
+
+# Cards
+
+Reusable cards may be created for:
+
+- Books
+- Recipes
+- Videos
+- Shopify products
+- Articles
+- Website rooms
+
+Every card should include:
+
+- A clear image
+- A descriptive title
+- Short supporting text
+- A clear action
+- Accessible alternative text
+- Consistent spacing
+
+---
+
+# Images
+
+## Image Style
+
+Images should feel:
+
+- Authentic
+- Warmly lit
+- Inviting
+- Countryside-inspired
+- Detailed but not cluttered
+- Consistent with the Lady Amour brand
+
+## Preferred Images
+
+- Real food photography
+- Real product photography
+- Countryside landscapes
+- Gardens and mountains
+- Books in comfortable reading settings
+- Tea, wood fire, flowers, linen, and rustic tables
+- Lifestyle photographs of Amour S.
+
+## Image Rules
+
+1. Use original photography whenever possible.
+2. Avoid visibly artificial food imagery.
+3. Do not stretch or distort photographs.
+4. Use responsive image sizes.
+5. Compress images for website performance.
+6. Add meaningful alternative text.
+7. Maintain consistent image aspect ratios within grids.
+
+---
+
+# Iconography
+
+Icons should be simple, elegant, and easy to understand.
+
+Initial room icons:
+
+- Library — book
+- Atelier — artist tools or needle and thread
+- Fireside — flame
+- Cellar — jar or bottle
+- Apothecary — leaf or mortar and pestle
+- Home — house
+- Garden — flower
+- Vlogs — video camera
+
+Icons should support labels rather than replace them.
+
+---
+
+# Forms
+
+Forms should include:
+
+- Visible labels
+- Clear instructions
+- Accessible error messages
+- Keyboard support
+- Strong focus indicators
+- Confirmation messages
+- Appropriate input types
+
+Forms should not rely only on placeholder text.
+
+---
+
+# Accessibility Standards
+
+The website should aim to meet WCAG 2.2 Level AA.
+
+Requirements include:
+
+- Sufficient color contrast
+- Keyboard navigation
+- Visible focus indicators
+- Semantic HTML
+- Alternative text
+- Form labels
+- Captions for video content
+- Reduced-motion support
+- Responsive text
+- Touch-friendly controls
+
+---
+
+# Motion and Animation
+
+Animations should feel slow, graceful, and purposeful.
+
+Preferred effects:
+
+- Gentle fades
+- Subtle zooms
+- Soft page transitions
+- Small hover movements
+
+Avoid:
+
+- Rapid flashing
+- Excessive movement
+- Spinning elements
+- Distracting animations
+- Motion that prevents users from reading content
+
+Users who prefer reduced motion should receive a simplified experience.
+
+---
+
+# Responsive Breakpoints
+
+Initial working breakpoints:
+
+| Device | Width |
+|---|---:|
+| Small mobile | Below 480 px |
+| Mobile | 480–767 px |
+| Tablet | 768–1023 px |
+| Desktop | 1024–1439 px |
+| Large desktop | 1440 px and above |
+
+Breakpoints may be adjusted during development based on the content.
+
+---
+
+# Reusable Components
+
+The initial component library may include:
+
+- Header
+- Navigation menu
+- Mobile navigation
+- Hero section
+- Room card
+- Book card
+- Recipe card
+- Video card
+- Product card
+- Testimonial card
+- Newsletter form
+- Call-to-action section
+- Breadcrumb navigation
+- Footer
+- Modal
+- Search field
+- Filter controls
+
+---
+
+# Design Review Checklist
+
+Before approving a page, confirm:
+
+- The page matches the Lady Amour visual identity.
+- Text is readable.
+- Mobile layout works.
+- Buttons are clear.
+- Images are optimized.
+- Alternative text is included.
+- Color contrast is sufficient.
+- Spacing is consistent.
+- Navigation is understandable.
+- The page does not feel overcrowded.
+
+---
+
+# Revision History
+
+| Version | Date | Description |
+|---|---|---|
+| 1.0 | August 2026 | Initial design-system foundation |
