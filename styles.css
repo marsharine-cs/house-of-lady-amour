@@ -1,0 +1,290 @@
+/* ========================================
+   Lady Amour Vlogs
+   Homepage Hero Styles
+   ======================================== */
+
+:root {
+    --color-ivory: #fffaf4;
+    --color-cream: #f8eee4;
+    --color-blush: #ead7d2;
+    --color-wine: #7b2431;
+    --color-wine-dark: #541722;
+    --color-gold: #b88a44;
+    --color-charcoal: #292326;
+    --color-white: #ffffff;
+
+    --font-heading: Georgia, "Times New Roman", serif;
+    --font-body: Arial, Helvetica, sans-serif;
+
+    --page-width: 1200px;
+}
+
+/* Basic reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-ivory);
+    color: var(--color-charcoal);
+    font-family: var(--font-body);
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+}
+
+/* ========================================
+   Hero Section
+   ======================================== */
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: center;
+    gap: 4rem;
+
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 5rem 2rem;
+
+    overflow: hidden;
+}
+
+/* Soft decorative background */
+
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+
+    background: var(--color-blush);
+    opacity: 0.35;
+
+    top: -180px;
+    left: -220px;
+
+    z-index: -1;
+}
+
+/* ========================================
+   Hero Text
+   ======================================== */
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero-eyebrow {
+    margin: 0 0 1rem;
+
+    color: var(--color-wine);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    margin: 0;
+
+    color: var(--color-wine-dark);
+    font-family: var(--font-heading);
+    font-size: clamp(3rem, 6vw, 5.7rem);
+    font-weight: 500;
+    line-height: 1.02;
+    letter-spacing: -0.035em;
+}
+
+.hero-description {
+    max-width: 590px;
+    margin: 1.75rem 0 0;
+
+    color: #5f5558;
+    font-size: 1.12rem;
+    line-height: 1.8;
+}
+
+/* ========================================
+   Hero Buttons
+   ======================================== */
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2.25rem;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 52px;
+    padding: 0.9rem 1.6rem;
+
+    border: 2px solid var(--color-wine);
+
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
+
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+.button-primary {
+    background-color: var(--color-wine);
+    color: var(--color-white);
+}
+
+.button-primary:hover {
+    background-color: var(--color-wine-dark);
+    border-color: var(--color-wine-dark);
+}
+
+.button-secondary {
+    background-color: transparent;
+    color: var(--color-wine);
+}
+
+.button-secondary:hover {
+    background-color: var(--color-wine);
+    color: var(--color-white);
+}
+
+/* ========================================
+   Hero Image Area
+   ======================================== */
+
+.hero-visual {
+    position: relative;
+
+    width: 100%;
+    min-height: 620px;
+
+    border-radius: 220px 220px 24px 24px;
+
+    background:
+        radial-gradient(
+            circle at 70% 25%,
+            rgba(255, 255, 255, 0.85),
+            transparent 32%
+        ),
+        linear-gradient(
+            145deg,
+            var(--color-blush),
+            var(--color-cream)
+        );
+
+    box-shadow: 0 30px 70px rgba(84, 23, 34, 0.14);
+}
+
+/* Elegant inner frame until the real photo is added */
+
+.hero-visual::before {
+    content: "";
+    position: absolute;
+    inset: 22px;
+
+    border: 1px solid rgba(123, 36, 49, 0.18);
+    border-radius: 200px 200px 16px 16px;
+}
+
+/* Small gold accent */
+
+.hero-visual::after {
+    content: "";
+    position: absolute;
+
+    width: 90px;
+    height: 4px;
+
+    left: -30px;
+    bottom: 80px;
+
+    background-color: var(--color-gold);
+}
+
+/* ========================================
+   Tablet
+   ======================================== */
+
+@media (max-width: 900px) {
+
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+
+        min-height: auto;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .hero-content {
+        max-width: 720px;
+    }
+
+    .hero-visual {
+        min-height: 560px;
+        max-width: 650px;
+    }
+}
+
+/* ========================================
+   Mobile
+   ======================================== */
+
+@media (max-width: 600px) {
+
+    .hero {
+        padding: 3rem 1.25rem;
+    }
+
+    .hero h1 {
+        font-size: clamp(2.7rem, 14vw, 4rem);
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .hero-visual {
+        min-height: 430px;
+        border-radius: 160px 160px 18px 18px;
+    }
+
+    .hero-visual::before {
+        border-radius: 145px 145px 12px 12px;
+    }
+}
