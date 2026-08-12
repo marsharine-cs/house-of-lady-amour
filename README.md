@@ -2,166 +2,145 @@
 
 > *Inspired Living for Everyday Moments.*
 
-The **House of Lady Amour** is a full-stack software engineering project that brings together storytelling, publishing, recipes, video, e-commerce, and inspired living into one immersive digital experience.
+**House of Lady Amour** is an evolving front-end web development project that combines publishing, recipes, video, digital products, and lifestyle content into one cohesive digital experience.
 
-Rather than organizing content through traditional website categories, visitors explore themed spaces—or **rooms**—within the House of Lady Amour.
+Rather than organizing content only through traditional website categories, the long-term concept allows visitors to explore themed spaces—or **rooms**—within the House of Lady Amour.
 
 The project serves two purposes:
 
-- Build the official digital home of the Lady Amour brand.
-- Demonstrate professional software engineering practices from planning through deployment.
+* Build the official digital home of the Lady Amour brand.
+* Demonstrate practical front-end development, GitHub project management, documentation, and iterative website design.
 
 ---
 
-# Project Status
+## 🚀 Live Site
 
-**Current Phase**
-
-Project Planning & Architecture
+[View House of Lady Amour](https://soulsparkscinemapress.github.io/house-of-lady-amour/)
 
 ---
 
-# Vision
+## Project Status
 
-The House of Lady Amour is designed as a welcoming digital estate where visitors can discover books, recipes, videos, products, and meaningful stories while experiencing a cohesive lifestyle brand built around faith, creativity, hospitality, and beautiful everyday living.
+**Current Phase:** Early Front-End Development
 
----
-
-# Planned Rooms
-
-📚 The Lady Amour Library
-
-🎨 The Lady Amour Atelier
-
-🔥 The Lady Amour Fireside
-
-🫙 The Lady Amour Cellar
-
-🌿 The Lady Amour Apothecary
-
-🏡 The Lady Amour Home
-
-🌺 The Lady Amour Garden
-
-🎥 Lady Amour Vlogs
+The homepage foundation and hero section have been implemented and deployed. Additional sections and functionality are being developed iteratively through GitHub Issues and Projects.
 
 ---
 
-# Planned Features
+## Current Technologies
 
-- Responsive website
-- Shopify integration
-- Book pages
-- Recipe pages
-- Video library
-- Search
-- Newsletter
-- Accessibility-first design
-- SEO optimization
-- Mobile-first experience
+* HTML5
+* CSS3
+* Git
+* GitHub
+* GitHub Pages
+* GitHub Issues & Projects
 
 ---
 
-# Technology Stack
+## Planned Technologies & Integrations
 
-Frontend
+As the project grows, planned technologies may include:
 
-- HTML5
-- CSS3
-- JavaScript
-- React
-- Next.js
+* JavaScript
+* React
+* Next.js
+* Shopify
+* Additional APIs and third-party integrations
 
-Commerce
-
-- Shopify
-
-Media
-
-- YouTube
-
-Deployment
-
-- Vercel
-
-Version Control
-
-- Git & GitHub
+These technologies are part of the planned roadmap and are not all currently implemented.
 
 ---
 
-# Documentation
+## Vision
 
-The repository documents the complete software engineering process, including:
-
-- Project Charter
-- Product Requirements Document (PRD)
-- User Personas
-- User Stories
-- Information Architecture
-- Software Architecture
-- Feature Specifications
-- Content & Asset Inventory
-- Design System
-- Wireframe Plan
-- Architecture Decision Records
-- Project Milestones
-- Project Management Strategy
+House of Lady Amour is designed as a welcoming digital space where visitors can discover books, recipes, videos, products, and stories within a cohesive lifestyle brand.
 
 ---
 
-# Development Philosophy
+## Planned Rooms
 
-The project follows a documentation-first approach.
-
-Major architectural, UX, accessibility, and product decisions are documented before implementation.
-
----
-
-# Accessibility
-
-Accessibility is a first-class requirement.
-
-The project aims to meet **WCAG 2.2 Level AA** standards.
+* 📚 The Lady Amour Library
+* 🎨 The Lady Amour Atelier
+* 🔥 The Lady Amour Fireside
+* 🫙 The Lady Amour Cellar
+* 🌿 The Lady Amour Apothecary
+* 🏡 The Lady Amour Home
+* 🌺 The Lady Amour Garden
+* 🎥 Lady Amour Vlogs
 
 ---
 
-# Current Repository Status
+## Planned Features
 
-Planning
-
-██████████ 100%
-
-Design
-
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%
-
-Development
-
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%
-
-Testing
-
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%
-
-Deployment
-
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%
+* Responsive website
+* Book and publishing pages
+* Recipe collection
+* Video library
+* Digital product integration
+* Shopify integration
+* Search
+* Newsletter integration
+* Accessibility-focused design
+* SEO optimization
+* Mobile-first improvements
 
 ---
 
-# Future Roadmap
+## 📋 Project Management & Documentation
 
-- UX/UI Design
-- Figma Prototype
-- Frontend Development
-- Shopify Integration
-- Testing
-- Deployment
-- Continuous Improvement
+The repository documents the development process using GitHub Issues, milestones, labels, and project boards.
+
+Planning and documentation include:
+
+* Project Charter
+* Product Requirements
+* User Personas
+* User Stories
+* Information Architecture
+* Feature Specifications
+* Content & Asset Planning
+* Design Planning
+* Architecture Decisions
+* Milestones
+* Project Management Strategy
 
 ---
 
-# License
+## ♿ Accessibility
 
-This repository is currently under active development.
+Accessibility is an important project goal.
+
+The project aims to follow **WCAG 2.2 Level AA** accessibility principles as development progresses.
+
+---
+
+## 🎯 What This Project Demonstrates
+
+* Front-end web development
+* Responsive layout development
+* Git and GitHub workflow
+* GitHub Pages deployment
+* Issue tracking and milestone planning
+* Requirements documentation
+* Iterative UI development
+* Project organization from concept through implementation
+
+---
+
+## Roadmap
+
+* Continue homepage development
+* Build recipe and cookbook sections
+* Add publishing and book pages
+* Improve responsive behavior
+* Expand accessibility features
+* Add interactive functionality
+* Integrate e-commerce
+* Continue testing and deployment improvements
+
+---
+
+## License
+
+This repository is under active development.
